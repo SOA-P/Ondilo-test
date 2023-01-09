@@ -1,14 +1,9 @@
-import Home from "./pages/Home";
+import Schedule from "@pages/Schedule";
 
-import "./App.css";
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
+    <div>
+      <Schedule />
     </div>
   );
 }
-
-export default App;
